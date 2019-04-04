@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>北琦玉的布鲁斯</title>
+  
+  <subtitle>啊啊啊,这就是北琦玉的布鲁斯啊~</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-04-04T10:47:54.797Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ACM记忆~</title>
+    <link href="http://yoursite.com/2019/04/04/ACM%E8%AE%B0%E5%BF%86/"/>
+    <id>http://yoursite.com/2019/04/04/ACM记忆/</id>
+    <published>2019-04-04T10:09:13.000Z</published>
+    <updated>2019-04-04T10:47:54.797Z</updated>
+    
+    <content type="html"><![CDATA[<p>眼看快要毕业了，四年来也打了不少ACM比赛(依然很菜)，去了很多地方玩，也没有好好记录过，本文就当做是一篇流水账，把打过的比赛，去过的地方做一个记录吧。</p><h2 id="第八届河海大学程序设计竞赛-2017-12-2"><a href="#第八届河海大学程序设计竞赛-2017-12-2" class="headerlink" title="第八届河海大学程序设计竞赛(2017.12.2)"></a>第八届河海大学程序设计竞赛(2017.12.2)</h2><p>第八届的校赛的我并不是参赛选手，院科协和实验室作为承办方举办了这次比赛(当时我是院科协副主席)。这次比赛应该是学院搞过的最大规模的程序设计竞赛了，比赛分为业余组和专业组，近300位同学参加，还邀请了南航的ACM队员过来交流(最后他们无情地包揽几乎全部的专业组一等奖)。<br><img src="IMG_20171202_134918.jpg" alt="IMG_20171202_134918"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;眼看快要毕业了，四年来也打了不少ACM比赛(依然很菜)，去了很多地方玩，也没有好好记录过，本文就当做是一篇流水账，把打过的比赛，去过的地方做一个记录吧。&lt;/p&gt;
+&lt;h2 id=&quot;第八届河海大学程序设计竞赛-2017-12-2&quot;&gt;&lt;a href=&quot;#第八届河海大学程序设计竞赛
+      
+    
+    </summary>
+    
+    
+      <category term="ACM" scheme="http://yoursite.com/tags/ACM/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mac常见问题总结(路径篇)</title>
+    <link href="http://yoursite.com/2019/04/04/mac%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E6%80%BB%E7%BB%93-%E8%B7%AF%E5%BE%84%E7%AF%87/"/>
+    <id>http://yoursite.com/2019/04/04/mac常见问题总结-路径篇/</id>
+    <published>2019-04-04T02:49:45.000Z</published>
+    <updated>2019-04-04T02:55:34.262Z</updated>
+    
+    <content type="html"><![CDATA[<p>主要总结mac下常用工具的安装路径及使用方法，不定期更新<br><a id="more"></a></p><h2 id="brew"><a href="#brew" class="headerlink" title="brew"></a>brew</h2><p>brew是mac下一个常用的软件包管理工具</p><ol><li>软件包安装路径：<code>brew 软件安装路径：/usr/local/Cellar/</code></li><li>常用命令<ul><li>安装: <code>brew install XXX</code></li></ul></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;主要总结mac下常用工具的安装路径及使用方法，不定期更新&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="系统" scheme="http://yoursite.com/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试</title>
+    <link href="http://yoursite.com/2019/04/04/%E6%B5%8B%E8%AF%95/"/>
+    <id>http://yoursite.com/2019/04/04/测试/</id>
+    <published>2019-04-04T02:33:06.000Z</published>
+    <updated>2019-04-04T02:56:16.849Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一篇测试文章<br>春眠不觉晓，出处闻啼鸟<br><a id="more"></a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是一篇测试文章&lt;br&gt;春眠不觉晓，出处闻啼鸟&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="测试内容" scheme="http://yoursite.com/tags/%E6%B5%8B%E8%AF%95%E5%86%85%E5%AE%B9/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2019/04/03/hello-world/"/>
+    <id>http://yoursite.com/2019/04/03/hello-world/</id>
+    <published>2019-04-03T14:44:50.851Z</published>
+    <updated>2019-04-03T14:44:50.851Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

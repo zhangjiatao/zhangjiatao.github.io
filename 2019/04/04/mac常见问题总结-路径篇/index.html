@@ -1,136 +1,180 @@
+
+
 <!DOCTYPE html>
-<html lang>
-  <head><meta name="generator" content="Hexo 3.8.0">
-    
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+<html lang xmlns:v-bind="http://www.w3.org/1999/xhtml">
 
+<head><meta name="generator" content="Hexo 3.8.0">
+    <title>mac常见问题总结(路径篇) - 北琦玉的布鲁斯</title>
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="author" content="John Doe">
+<meta name="description" content="主要总结mac下常用工具的安装路径及使用方法，不定期更新
+brewbrew是mac下一个常用的软件包管理工具
 
-<meta http-equiv="Cache-Control" content="no-transform">
-<meta http-equiv="Cache-Control" content="no-siteapp">
+软...">
+<meta name="keywords" content>
 
+<link rel="alternate" type="application/atom+xml" title="ATOM 1.0" href="/atom.xml">
 
-
-  <meta name="description" content="mac常见问题总结(路径篇)">
-
-
-
-
-  <meta name="keywords" content="系统,">
-
-
-
-
-
-  <link rel="alternate" href="/default" title="bulibuli-zjt">
-
-
-
-
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=1.1">
-
-
-
-<link rel="canonical" href="http://yoursite.com/2019/04/04/mac常见问题总结-路径篇/">
-
-
-<meta name="description" content="主要总结mac下常用工具的安装路径及使用方法，不定期更新">
-<meta name="keywords" content="系统">
-<meta property="og:type" content="article">
-<meta property="og:title" content="mac常见问题总结(路径篇)">
-<meta property="og:url" content="http://yoursite.com/2019/04/04/mac常见问题总结-路径篇/index.html">
-<meta property="og:site_name" content="bulibuli-zjt">
-<meta property="og:description" content="主要总结mac下常用工具的安装路径及使用方法，不定期更新">
-<meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-04-04T02:55:34.262Z">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="mac常见问题总结(路径篇)">
-<meta name="twitter:description" content="主要总结mac下常用工具的安装路径及使用方法，不定期更新">
-
-
-<link rel="stylesheet" type="text/css" href="/css/style.css?v=1.1">
-<link href="https://fonts.lug.ustc.edu.cn/css?family=Open+Sans" rel="stylesheet">
-
-
-
-
-
-<script type="text/javascript">
-  var themeConfig = {
-    fancybox: {
-      enable: false
-    },
-  };
+    <meta charset="utf-8">
+    <meta name="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+    <meta content="telephone=no" name="format-detection">
+    <meta name="renderer" content="webkit">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/journal.css?42535642">
+<script src="/js/loadCSS.js"></script>
+<script>
+    loadCSS("https://fonts.googleapis.com/css?family=Lora|Montserrat|Fira+Mono|Material+Icons");
+    (function (d) {
+        var config = {
+                kitId: 'dwg1tuc',
+                scriptTimeout: 3000,
+                async: true
+            },
+            h = d.documentElement, t = setTimeout(function () {
+                h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+            }, config.scriptTimeout), tk = d.createElement("script"), f = false,
+            s = d.getElementsByTagName("script")[0], a;
+        h.className += " wf-loading";
+        tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function () {
+            a = this.readyState;
+            if (f || a && a != "complete" && a != "loaded") return;
+            f = true;
+            clearTimeout(t);
+            try {
+                Typekit.load(config)
+            } catch (e) {
+            }
+        };
+        s.parentNode.insertBefore(tk, s)
+    })(document);
 </script>
+<noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora|Montserrat|Anonymous+Pro:400|Material+Icons">
+</noscript>
+</head>
+<body>
+<div id="top"></div>
+<div id="app">
+<div class="single-column-drawer-container" ref="drawer" v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            <a class="a-block drawer-menu-item false" href="http://yoursite.com">
+                Home
+            </a>
+            <a class="a-block drawer-menu-item false" href="/archives">
+                Archive
+            </a>
 
+            
+            
 
+            
+            <a class="a-block drawer-menu-item" href="/atom.xml">
+                RSS
+            </a>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav ref="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div ref="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a ref="navTitle" class="navbar-brand" href="/">
+            北琦玉的布鲁斯
+        </a>
+    </div>
+</nav>
+<div class="single-column-header-container" ref="pageHead" v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="/">
+        <div class="single-column-header-title">北琦玉的布鲁斯</div>
+        <div class="single-column-header-subtitle"></div>
+    </a>
+</div>
+<div ref="sideContainer" class="side-container">
+    <a class="a-block nav-head false" href="/">
+        <div class="nav-title">
+            北埼玉ブルース
+        </div>
+        <div class="nav-subtitle">
+            我庭小草复萌发<br>无限天地行将绿
+        </div>
+    </a>
 
+    <div class="nav-link-list">
+        <a class="a-block no-tint nav-link-item false" href="/archives">
+            Archive
+        </a>
 
-  
-
-
-
-    <title> mac常见问题总结(路径篇) - bulibuli-zjt </title>
-  </head>
-
-  <body>
-    <div id="page">
-      <header id="masthead"><div class="site-header-inner">
-    <h1 class="site-title">
-        <a href="/." class="logo">bulibuli-zjt</a>
-    </h1>
-
-    <nav id="nav-top">
         
-            <ul id="menu-top" class="nav-top-items">
-                
-                    <li class="menu-item">
-                        <a href="/archives">
-                            
-                            
-                                Archives
-                            
-                        </a>
-                    </li>
-                
-                    <li class="menu-item">
-                        <a href="/about">
-                            
-                            
-                                About
-                            
-                        </a>
-                    </li>
-                
-            </ul>
         
-  </nav>
+
+        
+        <a class="a-block no-tint nav-link-item" href="/atom.xml">
+            RSS
+        </a>
+        
+    </div>
+
+    
+    <div class="nav-footer">
+        Proudly published with Hexo<br>
+        
+        Theme <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> by <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a><br>
+        
+        &copy; 2019 <a href="http://yoursite.com">北琦玉的布鲁斯</a>
+    </div>
+</div>
+<div ref="extraContainer" class="extra-container">
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top" :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+
+        
+    </div>
 </div>
 
-      </header>
-      <div id="content">
-        
-    <div id="primary">
-        
-  <article class="post">
-    <header class="post-header">
-      <h1 class="post-title">
-        
-          mac常见问题总结(路径篇)
-        
-      </h1>
-
-      <time class="post-time">
-          Apr 04 2019
-      </time>
-    </header>
-
-
-
+<div ref="streamContainer" class="stream-container">
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            <div class="post-head-wrapper-text-only" style="background-image: url('')">
+                <div class="post-title">
+                    mac常见问题总结(路径篇)
+                    <div class="post-meta">
+                        <time datetime="2019-04-04T02:49:45.000Z" itemprop="datePublished">
+                            2019-04-04 10:49
+                        </time>&nbsp;
+                        
     
-            <div class="post-content">
-            <p>主要总结mac下常用工具的安装路径及使用方法，不定期更新<br><a id="more"></a></p>
+                        
+                        
+                        <i class="material-icons" style>label</i>
+                        
+                        <a href="/tags/系统/">系统</a>
+                        
+                        
+                    </div>
+                </div>
+            </div>
+    
+            <div class="post-body-wrapper">
+                <div class="post-body">
+                    <p>主要总结mac下常用工具的安装路径及使用方法，不定期更新<br><a id="more"></a></p>
 <h2 id="brew"><a href="#brew" class="headerlink" title="brew"></a>brew</h2><p>brew是mac下一个常用的软件包管理工具</p>
 <ol>
 <li>软件包安装路径：<code>brew 软件安装路径：/usr/local/Cellar/</code></li>
@@ -140,81 +184,47 @@
 </li>
 </ol>
 
+                </div>
             </div>
-          
+    
+            <nav class="post-pagination">
+    
+    <a class="newer-posts" href="/2019/04/04/ACM记忆/">
+        Previous post<br>ACM记忆~
+    </a>
+    
+    <span class="page-number"></span>
+    
+    <a class="older-posts" href="/2019/04/04/测试/">
+        Next post<br>测试
+    </a>
+    
+</nav>
 
     
-      <footer class="post-footer">
-		
-		<div class="post-tags">
-		  
-			<a href="/tags/系统/">系统</a>
-		  
-		</div>
-		
-
-        
-        
-  <nav class="post-nav">
-    
-    
-      <a class="next" href="/2019/04/04/测试/">
-        <span class="next-text nav-default">测试</span>
-        <span class="prev-text nav-mobile">Next</span>
-        <i class="iconfont icon-right"></i>
-      </a>
-    
-  </nav>
-
-        
-  <div class="comments" id="comments">
-    
-  </div>
+            
 
 
-      </footer>
-    
-  </article>
-
+        </div>
     </div>
-
-      </div>
-
-      <footer id="colophon"><span class="copyright-year">
+    <div class="single-column-footer">
+    Proudly published with Hexo<br>
     
-        &copy;
+    Theme <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> by <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a><br>
     
-        2014 -
-    
-    2019
-    <span class="footer-author">John Doe.</span>
-    <span class="power-by">
-        Powered by <a class="hexo-link" href="https://hexo.io/">Hexo</a> and <a class="theme-link" href="https://github.com/frostfan/hexo-theme-polarbear">Polar Bear</a>
-    </span>
-</span>
+    &copy; 2018 <a href="http://yoursite.com">北琦玉的布鲁斯</a>
+</div>
+</div>
 
-      </footer>
-
-      <div class="back-to-top" id="back-to-top">
-        <i class="iconfont icon-up"></i>
-      </div>
-    </div>
-    
-
-
-    
+</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.4/dist/umd/popper.min.js" integrity="sha256-EGs9T1xMHdvM1geM8jPpoo8EZ1V1VRsmcJz8OByENLA=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.17/dist/vue.min.js" integrity="sha256-FtWfRI+thWlNz2sB3SJbwKx5PgMyKIVgwHCTwa3biXc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/smooth-scroll@14.2.1/dist/smooth-scroll.polyfills.min.js" integrity="sha256-CI4Gq5E0io1Pv0xM3qPM+NUIOhbIBvC3GiN1Y4KhXpw=" crossorigin="anonymous"></script>
+<script src="/js/journal.js?89590039"></script>
 
 
 
-
-  
-    <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.min.js"></script>
-  
-
-  
-
-    <script type="text/javascript" src="/js/src/theme.js?v=1.1"></script>
-<script type="text/javascript" src="/js/src/bootstrap.js?v=1.1"></script>
-
-  </body>
+</body>
 </html>
