@@ -29,9 +29,9 @@
 - 2019年9月-至今  东南大学  软件工程   硕士
 
 ### 会议论文
-- 1.**Jiatao Zhang**, Tianxing Wu, Guilin Qi: Gaussian Metric Learning for Few-Shot Uncertain Knowledge Graph Completion[C]// 2021 International Conference on Database Systems for Advanced Applications (DASFAA) (1) 2021: 256-271
-- 2.Khaoula Boutouhami, **Jiatao Zhang**, Guilin Qi, Huan Gao. Uncertain Ontology-Aware Knowledge Graph Embeddings[C]//Joint International Semantic Technology Conference. Springer, Singapore, 2019: 129-136
-- 3.Khaoula Boutouhami, Qiu Ji, Guilin Qi, **Jiatao Zhang**, Huan Gao. Uncertain Ontology Embeddings[C]//2020 IEEE International Conference on Progress in Informatics and Computing (PIC). IEEE, 2020: 47-51.9350794.
+- 1. **Jiatao Zhang**, Tianxing Wu, Guilin Qi: Gaussian Metric Learning for Few-Shot Uncertain Knowledge Graph Completion[C]// 2021 International Conference on Database Systems for Advanced Applications (DASFAA) (1) 2021: 256-271
+- 2. Khaoula Boutouhami, **Jiatao Zhang**, Guilin Qi, Huan Gao. Uncertain Ontology-Aware Knowledge Graph Embeddings[C]//Joint International Semantic Technology Conference. Springer, Singapore, 2019: 129-136
+- 3. Khaoula Boutouhami, Qiu Ji, Guilin Qi, **Jiatao Zhang**, Huan Gao. Uncertain Ontology Embeddings[C]//2020 IEEE International Conference on Progress in Informatics and Computing (PIC). IEEE, 2020: 47-51.9350794.
 
 ### 专利著作权
  - 一种基于不确定性本体的知识表示方法。中国发明专利申请
