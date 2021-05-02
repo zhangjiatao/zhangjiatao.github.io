@@ -7,7 +7,7 @@
       <p><b>东南大学 计算机科学与工程学院</b></p>
       <p><b>邮箱：zjt@seu.edu.cn</b></p>
       <p><b>地址：江苏省南京市江宁区东南大学路2号，邮编211189</b></p>
-      <a href="/index-en.html">English Version</a>
+      <a href="/cv_en.html">English Version</a>
     </td>
     <td width="25%">
       <img src="/zhangjiatao.jpg" width="100%">
